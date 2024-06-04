@@ -1,0 +1,64 @@
+# IDE関連ファイルを無視
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+.loadpath
+
+### VS Code ###
+.vscode/
+
+# Mavenビルド成果物を無視
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradleビルド成果物を無視
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# STS (Spring Tool Suite)関連ファイルを無視
+.apt_generated
+.springBeans
+.sts4-cache
+
+# NetBeans関連ファイルを無視
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Maven Wrapperを無視しない
+!.mvn/wrapper/maven-wrapper.jar
+
+# OS関連ファイルを無視
+.DS_Store
+Thumbs.db
+
+# ログファイルを無視
+*.log
+
+# 環境設定ファイルを無視
+*.env
+*.local
+.env
+.env.*
+
+# Javaバイナリファイルを無視
+*.class
+*.war
+*.jar
+
+# Kotlin関連ファイルを無視
+*.kotlin_module
+
+# HELP.md
+HELP.md
